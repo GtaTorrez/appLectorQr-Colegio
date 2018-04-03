@@ -1,3 +1,24 @@
 page-home {
-
+    .buttonCircle{
+        display: flex;
+        justify-content: center; /* align horizontal */
+        align-items: center;
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        margin:  auto;
+        margin-top: 10%;
+        vertical-align: middle;
+        border: 2px solid #5bd841;
+        background: color($colors, secondary, base);
+        font-size: 3em;
+        color: white;
+    }
+    .logo{
+        display: block;
+        width: 200px;
+        height: auto;
+        margin: auto;
+    }
+  
 }
